@@ -14,6 +14,7 @@ Snapshot of augmented data after initial data exploration:
 <img width="540" alt="Screenshot 2024-11-12 at 9 35 45 PM" src="https://github.com/user-attachments/assets/b21ba50c-3848-463a-b923-df3a09643ea2">
 
 
+
 Snapshot of the model's evaluation without normalization 
 
 <img width="368" alt="Screenshot 2024-11-12 at 9 37 15 PM" src="https://github.com/user-attachments/assets/7fd8fb76-881a-46e8-831d-74fdab6e142b">
