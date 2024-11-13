@@ -3,15 +3,13 @@
 This project is aimed at using neural networks and transfer learning to perform ocular disease recognition.
 
 
-## Abstract
+## Overview
+Medical diagnoses often face challenges like time consumption and human errors, which can lead to fatal misclassifications and late detections. To address this, I was tasked with developing a computer-based system to diagnose cataracts from ocular images. The system will use a dataset of human-annotated eye images to classify normal and cataract-affected eyes. This technology aims to accelerate eye disease diagnosis and can potentially be expanded to detect other diseases.
 
-The notebook contains a model developed to analyze the ocular images and detect whether an eye image is mormal or has cataract. The dataset contains quality controlled human anotataed image data clasifying eye images into different labels. The system developed can be used by medical experts to validate diagnosis, or for initial diagnosis. Convolutional Neural Network and VGG16 for transfer learning were used to create the model. The images were loaded to the network using the image generator and split into 25% for testing and 75% for training- 20% of which was used for validation. The evaluation of the model shows that the model has an accuracy of 89.86%. It was able to accurately classify 257 of the 286 images in the test data. Looking at the confusion matrix, the critical result is the 8 false positives in the prediction (8 images labelled as normal but are cataract). Overall, the performance of the model is very good and can be safely implemented in real-life application.
+The notebook details a model created for analyzing ocular images to detect cataracts. The dataset comprises human-annotated, quality-controlled images labeled for classification. This system can assist medical experts in diagnosing or validating diagnoses. The model employs a Convolutional Neural Network (CNN) with VGG16 for transfer learning. Image data was processed with an image generator and divided into 75% for training (with 20% used for validation) and 25% for testing. The model achieved an accuracy of 89.86%, correctly classifying 257 out of 286 test images. The confusion matrix highlighted 8 false positives, where cataract cases were incorrectly labeled as normal. Overall, the model demonstrated strong performance suitable for real-world application.
 
-## Use Case
 
-Medical experts have tried to accurately detect and diagnose diseases based on examinations, tests, scans, and images. These diagnoses are time-consuming and are subject to human errrors. Misclassification can be fatal and late diagnosis can be life-threatning. To utilize the power of computers, I have been approached to develop a system to diagnose an eye disease- cataract based on the eye image. The system will be trained on the human annotated ocular images dataset to classify normal eye images and cataract eye images. A system can be built on this to accelerate the diagnosis on eye diseases and expanded to include other dieases.
-
-The full notebook is available here:
+The full notebook is available here: https://github.com/juwonlo-tech/ocular-disease/blob/main/Disease_recognition_using_ocular_images_.ipynb
 
 
 
